@@ -41,7 +41,7 @@ src/main:
             MatchFileFragment --fragment "displaySymbolInDoubleTriangle" --count 1 --exact
             MatchFileFragment --fragment "while" --count 4
 # --> check that the number of commits in the Git repository is beyond a threshold
-CountCommits --count 1
+CountCommits --count 2
 
 # --> check that the program executes correctly
 ExecuteCommand --command "gradle build"
