@@ -35,19 +35,22 @@ public class DisplaySymbolsMain {
     System.out.println("Okay, I read in the row count of " + chosenRows + ".");
     System.out.println();
 
-    // TODO Step Four: Create an instance of the DisplaySymbols class
+    // Step Four: Create an instance of the DisplaySymbols class
     DisplaySymbols display = new DisplaySymbols();
 
     System.out.println("Now, I will display a single triangle.");
     System.out.println();
     // TODO Step Five: Call a method to display the single triangular shape here
+    
     System.out.println();
 
     System.out.println("Now, I will display a double triangle.");
     System.out.println();
     // TODO Step Six: Call a method to display the double triangular shape here
+    
     System.out.println();
 
     // TODO Step Seven: Display the closing message
+    
   }
 }
